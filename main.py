@@ -2,18 +2,15 @@ from tkinter import *
 import time
 from tkinter import messagebox
 
-# def click():
-#     messagebox.showinfo(title="MegaSpark",message="Your Login is Sucessful !")
-
 def click():
     name = "Rohan"
     passw = "Password"
     if username.get() == name and password.get() == passw:
-         messagebox.showinfo(title="MegaSpark",message="Your Login is Sucessful !")
+         messagebox.showinfo(title="Message",message="Your Login is Sucessful !")
          print("New Account : "+name)
          print("Password : "+passw)
     else:
-         messagebox.showinfo(title="MegaSpark",message="Login Failed !")
+         messagebox.showinfo(title="Message",message="Login Failed !")
         
 
 window = Tk()
